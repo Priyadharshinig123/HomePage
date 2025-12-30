@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CloudDesk</title>
+
+<style>
+body{
+  margin:0;
+  font-family:Verdana;
+  background:#fafafa;
+}
+
+/* Top bar */
+.top{
+  background:#222831;
+  color:#eeeeee;
+  padding:15px;
+  text-align:center;
+  transition:0.3s;
+}
+.top:hover{
+  background:#393e46;
+}
+
+/* Main section */
+.main{
+  padding:40px;
+  text-align:center;
+}
+
+.main h1{
+  color:#393e46;
+}
+
+/* Button effect */
+.main button{
+  background:#00adb5;
+  color:white;
+  border:none;
+  padding:10px 20px;
+  border-radius:20px;
+  cursor:pointer;
+  transition:0.3s;
+}
+.main button:hover{
+  transform:scale(1.1);
+  background:#028a91;
+}
+
+/* Services section */
+.services{
+  display:flex;
+  padding:20px;
+}
+
+/* Card effect */
+.service{
+  flex:1;
+  margin:10px;
+  padding:20px;
+  background:white;
+  border-left:5px solid #00adb5;
+  transition:0.3s;
+}
+.service:hover{
+  transform:translateY(-10px);
+  box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+</style>
+
+</head>
+<body>
+
+<div class="top">
+  <h2>CloudDesk</h2>
+</div>
+
+<div class="main">
+  <h1>Work smarter, not harder</h1>
+  <p>Your digital workspace in one place</p>
+  <button>Try Now</button>
+</div>
+
+<div class="services">
+  <div class="service">Automation</div>
+  <div class="service">Security</div>
+  <div class="service">Analytics</div>
+</div>
+
+</body>
+</html>
